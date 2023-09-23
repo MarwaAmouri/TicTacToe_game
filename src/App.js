@@ -1,24 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import React from "react";
+import TicTacToe from "./components/TicTacToe";
 
 function App() {
+  // Action Plan:
+  // We need the State of the board game (X, O)
+  // We need to keep the state of the 2 players
+  // Solution algorothim to decide whos the winner
+  // Rest the game.
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <TicTacToe />
   );
 }
 
