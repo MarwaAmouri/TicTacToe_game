@@ -1,7 +1,7 @@
 import Cell from "./Cell";
 import Strike from "./Strike";
 
-function Board({ cells, onCellClick, playerTurn, strikeClass }) {
+function Board({ cells, onCellClick, strikeClass }) {
     return (
         <div className="board">
             <Cell 
@@ -31,8 +31,10 @@ function Board({ cells, onCellClick, playerTurn, strikeClass }) {
             />
             <Cell 
                 onClick={()=> onCellClick(5)} 
-                value={cells[5]} className='bottom-border' />
-                <Cell onClick={()=> onCellClick(6)} value={cells[6]} 
+                value={cells[5]} className='bottom-border' 
+            />
+
+            <Cell onClick={()=> onCellClick(6)} value={cells[6]} 
                 className='right-border' 
             />
             <Cell 
