@@ -40,7 +40,7 @@ class TicTacToe extends Component {
   }
 
   handleClick = (index) => {
-    const { cells, xIsNext, round, isGameWon } = this.state;
+    const { cells, xIsNext, isGameWon } = this.state;
 
     if (isGameWon || cells[index]) {
         return;
