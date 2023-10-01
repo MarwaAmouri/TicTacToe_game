@@ -1,0 +1,15 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 500px;
+    width: 500px;
+    position: relative;
+}
+
+.right-border {
+    border-right: 0.2em solid #0074a6;
+}
+  
+.bottom-border {
+    border-bottom: 0.2em solid #0074a6;
+}

@@ -1,0 +1,13 @@
+.cell {
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+    font-family: sans-serif;
+    color: black;
+    cursor: pointer;
+    border: none;
+    background-color: #d6d7d9;
+}
+
